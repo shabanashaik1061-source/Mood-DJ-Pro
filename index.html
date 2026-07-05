@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mood DJ Pro</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- Animated Background -->
+    <div class="background"></div>
+
+    <!-- Header -->
+    <header>
+
+        <div class="logo">
+
+            <i class="fa-solid fa-headphones"></i>
+
+            <h1>Mood DJ Pro</h1>
+
+        </div>
+
+        <button id="darkModeBtn">
+            <i class="fa-solid fa-moon"></i>
+
+        </button><button id="randomBtn" title="Play Random Song">
+    🎲
+</button>
+
+
+    </header>
+<div id="toast"></div>
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Hero Section -->
+        <section class="hero">
+
+            <h2>🎵 Find the Perfect Song for Your Mood</h2>
+
+            <p>Select your mood and language to discover music instantly.</p>
+
+        </section>
+
+        <!-- Search -->
+        <section class="search-section">
+
+            <div class="search-box">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input
+                    type="text"
+                    id="searchSong"
+                    placeholder="Search any song...">
+
+            </div>
+
+        </section>
+
+        <!-- Mood Selection -->
+        <section>
+
+            <h3>Select Your Mood</h3>
+
+            <div class="mood-container">
+
+                <div class="mood-card" data-mood="happy">
+
+                    😊
+
+                    <span>Happy</span>
+
+                </div>
+
+                <div class="mood-card" data-mood="sad">
+
+                    😔
+
+                    <span>Sad</span>
+
+                </div>
+
+                <div class="mood-card" data-mood="energetic">
+
+                    🔥
+
+                    <span>Energetic</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Language -->
+        <section>
+
+            <h3>Select Language</h3>
+
+            <div class="language-container">
+
+                <div class="language-card" data-language="telugu">
+
+                    🇮🇳
+
+                    <span>Telugu</span>
+
+                </div>
+
+                <div class="language-card" data-language="hindi">
+
+                    🇮🇳
+
+                    <span>Hindi</span>
+
+                </div>
+
+                <div class="language-card" data-language="tamil">
+
+                    🇮🇳
+
+                    <span>Tamil</span>
+
+                </div>
+
+                <div class="language-card" data-language="english">
+
+                    🇺🇸
+
+                    <span>English</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Button -->
+        <section class="button-section">
+
+            <button id="showSongsBtn">
+
+                <i class="fa-solid fa-music"></i>
+
+                Show Songs
+
+            </button>
+
+        </section>
+
+        <!-- Songs -->
+        <section>
+
+            <h3>Recommended Songs</h3>
+
+            <div id="songsContainer">
+
+                <!-- Song cards appear here -->
+
+            </div>
+
+        </section>
+
+        <!-- Music Player -->
+        <section class="player">
+
+    <h3>🎵 Now Playing</h3>
+
+    <div id="nowPlaying">
+
+        
+        <div class="equalizer">
+    <span></span><span></span><span></span><span></span>
+</div>
+
+        <h2>
+
+            Select a song
+
+        </h2>
+
+        <p>
+
+            Click Play to search it on YouTube.
+
+        </p>
+
+    </div>
+
+</section>
+
+        <!-- Favorites -->
+        <section>
+
+            <h3>
+
+                ❤️ Favorite Songs
+
+            </h3>
+
+            <div id="favoriteContainer">
+
+            </div>
+
+        </section>
+
+        <!-- Recent -->
+        <section>
+
+            <h3>
+
+                🕒 Recently Played
+
+            </h3>
+
+            <div id="recentContainer">
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <footer>
+
+        <p>
+
+            Made with ❤️ using HTML, CSS & JavaScript
+
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
