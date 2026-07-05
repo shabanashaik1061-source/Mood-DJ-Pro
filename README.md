@@ -6,13 +6,14 @@ A responsive **music recommendation web application** that suggests songs based 
 
 ## 🌟 Live Demo
 
-https://your-username.github.io/mood-dj-pro/
+
+https://github.com/shabanashaik1061-source/Mood-DJ-Pro
 
 ---
 
 ## 📸 Preview
 
-Add screenshots of your project here:
+
 
 - Home Page  
 - Mood Selection  
@@ -70,3 +71,58 @@ Add screenshots of your project here:
 ---
 
 ## 📂 Project Structure
+Mood-DJ-Pro/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+
+
+---
+
+## 📌 How to Run Locally
+
+1. Clone the repository
+
+https://github.com/shabanashaik1061-source/Mood-DJ-Pro
+
+2. Open the project folder
+
+3. Run `index.html` in your browser
+
+---
+
+## 💡 Future Improvements
+
+- 🎧 Embed YouTube player instead of search  
+- 🤖 AI-based mood detection  
+- 🎼 Playlist creation feature  
+- 🔊 Real audio streaming integration  
+- 📊 User analytics dashboard  
+- ☁️ Backend integration (Node.js / Firebase)  
+
+---
+
+## 👩‍💻 Author
+
+shabana shaik 
+
+https://github.com/shabanashaik1061-source
+
+LinkedIn:www.linkedin.com/in/shabana-shaik-0888ab2b7  
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project:
+- ⭐ Star the repository  
+- 🍴 Fork it  
+- 🚀 Share it  
+
+---
+
+## 📜 License
+
+This project is open-source and free to use for learning purposes.
