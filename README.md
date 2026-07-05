@@ -11,14 +11,16 @@ https://github.com/shabanashaik1061-source/Mood-DJ-Pro
 
 ---
 
-## 📸 Preview
+## 📸 Preview of app 
 
+![Mood Selection ](https://github.com/shabanashaik1061-source/Mood-DJ-Pro/blob/main/pic1.png.png)
 
+![ Song Cards ](https://github.com/shabanashaik1061-source/Mood-DJ-Pro/blob/main/pic2.png.png)
 
-- Home Page  
-- Mood Selection  
-- Song Cards  
-- Favorites Section  
+![Favorites Section ](https://github.com/shabanashaik1061-source/Mood-DJ-Pro/blob/main/pic3.png.png)
+
+![ Home Page ](https://github.com/shabanashaik1061-source/Mood-DJ-Pro/blob/main/pic4.png.png)
+
 
 ---
 
